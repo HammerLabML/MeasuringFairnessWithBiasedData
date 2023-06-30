@@ -1,4 +1,5 @@
 results/
-data/
+data/done/
+data/review/
 plots/
 .ipynb_checkpoints/
