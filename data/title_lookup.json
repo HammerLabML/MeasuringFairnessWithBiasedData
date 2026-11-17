@@ -77,7 +77,26 @@
 "-stylist": ["makeup artist", "celebrity wardrobe stylist", "stylist"],
 
 
-"-ignore": ["workshopper", "translator", "radio broadcaster", "minister", "aquatics instructor", "44 %", "travel enthusiast", "home maker", "education entrepreneur", "hormonal health advocate", "welness advocate", "public policy advocate", "ocean advocate", "advocate", "health advocate", "consumer advocate", "sound healer", "medium", "student", "activist", "mythologist", "women's rights activist", "secular activist", "stay-at-home mom", "folk herbalist", "shamanic healer", "ruling elder", "herbalist", "innovator", "estate agent", "social activist", "scrapbooker", "troubadour", "mentor", "specialist in diabetes and smoking cessation", "specialist in forensic odontology", "historical and paranormal researcher", "performer", "speaker", "scholar", "host", "hacker", "communications strategist", "educational administrator", "breath facilitator", "sailor", "architectural critic", "story architect", "technologist", "skipper", "builder", "jeweller", "jeweler", "jewelry maker", "educational technologist", "freediver", "investor", "inventor", "food stylist", "storyteller", "genealogist", "operator", "producer", "negotiation expert", "environmentalist", "retoucher", "patrolman", "organizer", "nondual facilitator", "policy analyst", "broadcaster", "supervisor", "freelancer", "austronaut", "real estate investor", "cyber activist", "urban education advocate", "rti activist", "consultant for anti-science organizations", "urban planning graduate student", "mental health campaigner", "diversity advocate", "education advocate", "dokkalfar teacher", "unity minister", "social business evangelist", "camp director", "documentarist", "44 %", "race car driver", "prisoner", "surfer", "air hostess", "taxi driver", "valet", "poker pro", "Stay-at-home mom"],
+"-ignore": ["workshopper", "translator", "radio broadcaster", "minister", "aquatics instructor", "44 %", "travel enthusiast", "home maker", 
+            "education entrepreneur", "hormonal health advocate", "welness advocate", "public policy advocate", "ocean advocate", "advocate", 
+            "health advocate", "consumer advocate", "sound healer", "medium", "student", "activist", "mythologist", "women's rights activist", 
+            "secular activist", "stay-at-home mom", "folk herbalist", "shamanic healer", "ruling elder", "herbalist", "innovator", "estate agent", 
+            "social activist", "scrapbooker", "troubadour", "mentor", "specialist in diabetes and smoking cessation", 
+            "specialist in forensic odontology", "historical and paranormal researcher", "performer", "speaker", "scholar", "host", "hacker", 
+            "communications strategist", "educational administrator", "breath facilitator", "sailor", "architectural critic", "story architect", 
+            "technologist", "skipper", "builder", "jeweller", "jeweler", "jewelry maker", "educational technologist", "freediver", "investor", 
+            "inventor", "food stylist", "storyteller", "genealogist", "operator", "producer", "negotiation expert", "environmentalist", "retoucher", 
+            "patrolman", "organizer", "nondual facilitator", "policy analyst", "broadcaster", "supervisor", "freelancer", "austronaut", 
+            "real estate investor", "cyber activist", "urban education advocate", "rti activist", "consultant for anti-science organizations", 
+            "urban planning graduate student", "mental health campaigner", "diversity advocate", "education advocate", "dokkalfar teacher", 
+            "unity minister", "social business evangelist", "camp director", "documentarist", "44 %", "race car driver", "prisoner", "surfer", 
+            "air hostess", "taxi driver", "valet", "poker pro", "Stay-at-home mom"],
 
-"-other": ["botanist", "city council member", "librarian", "library administrator", "farmer", "urban farmer", "judge", "chef", "politician", "publisher", "facilitator", "archeologist", "cheese maker", "winemaker", "work-at-home mom", "beader", "presenter", "academic", "archeologist", "dean", "explorer", "stay-at-home mother", "stay-at-home-mom", "project manager", "product owner", "critic", "film critic", "communications expert", "book publisher", "instructor", "economist", "astrologer", "sound recordist", "museum professional", "public health professional", "historic building inspector", "development worker", "communications professional", "digital products architect", "media pro", "project officer", "analyst", "garden designer", "bartender", "philanthropist", "bookbinder", "socialite", "realtor", "officer", "stock market technician"]
+"-other": ["botanist", "city council member", "librarian", "library administrator", "farmer", "urban farmer", "judge", "chef", "politician", 
+           "publisher", "facilitator", "archeologist", "cheese maker", "winemaker", "work-at-home mom", "beader", "presenter", "academic", 
+           "archeologist", "dean", "explorer", "stay-at-home mother", "stay-at-home-mom", "project manager", "product owner", "critic", "film critic", 
+           "communications expert", "book publisher", "instructor", "economist", "astrologer", "sound recordist", "museum professional", 
+           "public health professional", "historic building inspector", "development worker", "communications professional", 
+           "digital products architect", "media pro", "project officer", "analyst", "garden designer", "bartender", "philanthropist", "bookbinder", 
+           "socialite", "realtor", "officer", "stock market technician"]
 }
