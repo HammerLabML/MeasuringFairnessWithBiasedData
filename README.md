@@ -2,23 +2,24 @@
 
 This repository contains the code and some artifacts to reproduce the paper:
 
-Sarah Schröder, Alexander Schulz, Ivan Tarakanov, Robert Feldhans and Barbara Hammer. Measuring fairness with biased data: A case study on the effects of unsupervised data in fairness evaluation. Accepted at IWANN 2023 and to be published in the LNCS proceedings.
+Sarah Schröder, Alexander Schulz, Ivan Tarakanov, Robert Feldhans and Barbara Hammer. [Measuring fairness with biased data: A case study on the effects of unsupervised data in fairness evaluation](https://link.springer.com/chapter/10.1007/978-3-031-43085-5_11). Accepted at IWANN 2023 and published in the LNCS proceedings.
 
 
 ## Requirements
 
-We provide our conda environment in ```env.yml```. The following packages are necessary to run the notebooks:
+The following packages are necessary to run the notebooks:
 
 - numpy
-- scipy
 - pandas
-- matplotlib
-- seaborn
+- datasets
+- scipy
+- plotly
+- kaleido
 - torch
 - scikit-learn
+- jupyter
 
 In addition we used a [custom wrapper for huggingface embeddings](https://github.com/UBI-AGML-NLP/Embeddings).
-
 
 ## Dataset
 
@@ -38,7 +39,7 @@ Columns from the original dataset:
 - auto\_title (renamed from title)
 
 Columns from our review:
-- review (1 if the samples was reviewed, otherwise 0)
+- review (1 if the sample was reviewed, otherwise 0)
 - raw\_titles (a list of raw\_titles determined by the annotator)
 - titles (a list of titles derived from the raw titles and the ```title_lookup.json```, including only occupations used in the paper)
 - valid (1 if the annotator decided the sample was a valid biography (see paper) otherwise 0 (or -1 for samples not reviewed))
@@ -47,8 +48,9 @@ Columns from our review:
 
 ## Reproducing the paper
 
-#### Finding candidate samples for review
-Use ```filter_dataset.ipynb``` to obtain a selection of approx. 20.000 candidate samples we used for the review.
+#### Reproducing the review process
+
+We used ```filter_dataset.ipynb``` to obtain a selection of approx. 20.000 candidate samples for the review. The code for merging the reviewed artifacts and creating the dataset patches can be found in ```merge_review_artifacts.ipynb```. Note that the later one used artifacts from the review (containing names and bios) and the crawled dataset which are not published, but we are willing to share them with fellow researchers.
 
 #### Patch review labels to dataset
 If you downloaded the BIOS dataset yourself, use ```add_changes_to_dataset.ipynb``` to add our labels to the dataset. Move the downloaded ```BIOS.pkl``` to the ```data/``` directory or adapt the path in the notebook.  
